@@ -10,6 +10,11 @@ const addFormOptions = [
 ];
 
 class FormComponent extends React.Component {
+  state = {
+    type: 'text'
+  }
+
+  onFocus = () => {this.setState({type: 'date'});}
 
   render() {
     const { correctDate, correctCamera, getImages, handleChangeDate, handleChangeCamera } = this.props;
@@ -21,7 +26,7 @@ class FormComponent extends React.Component {
     return (
       <Form onSubmit={getImages}>
         <Form.Group>
-          <Form.Input name="date" type="date" fluid placeholder='Date' onChange={handleChangeDate} />
+          <Form.Input name="date" type={this.state.type} fluid placeholder='Date' onFocus={this.onFocus} onChange={handleChangeDate} />
           <Form.Select fluid options={addFormOptions} placeholder='Camera' onChange={handleChangeCamera} />
           <Button disabled={!enabled}>Get Images</Button>
         </Form.Group>

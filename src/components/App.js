@@ -72,9 +72,9 @@ class App extends React.Component {
     const imagesForPagination = images.slice((activePage - 1) * maxNum, activePage * maxNum);
 
     return (
-      <div className="main-div">
+      <div className="main-div" ref={this.myRef}>
 
-        <HeaderComponent ref={this.myRef} />
+        <HeaderComponent />
         <div className="main-content">
           <div className="title-form-div">
             <TitleComponent />

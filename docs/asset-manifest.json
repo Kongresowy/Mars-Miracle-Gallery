@@ -1,17 +1,17 @@
 {
-  "main.css": "/Mars-Miracle-Gallery/static/css/main.8f85e1b2.chunk.css",
-  "main.js": "/Mars-Miracle-Gallery/static/js/main.b215555d.chunk.js",
-  "main.js.map": "/Mars-Miracle-Gallery/static/js/main.b215555d.chunk.js.map",
+  "main.css": "/Mars-Miracle-Gallery/static/css/main.9ef2bb0b.chunk.css",
+  "main.js": "/Mars-Miracle-Gallery/static/js/main.34df0e32.chunk.js",
+  "main.js.map": "/Mars-Miracle-Gallery/static/js/main.34df0e32.chunk.js.map",
   "runtime~main.js": "/Mars-Miracle-Gallery/static/js/runtime~main.a9454c99.js",
   "runtime~main.js.map": "/Mars-Miracle-Gallery/static/js/runtime~main.a9454c99.js.map",
   "static/css/2.3a7eb246.chunk.css": "/Mars-Miracle-Gallery/static/css/2.3a7eb246.chunk.css",
   "static/js/2.2770e2f1.chunk.js": "/Mars-Miracle-Gallery/static/js/2.2770e2f1.chunk.js",
   "static/js/2.2770e2f1.chunk.js.map": "/Mars-Miracle-Gallery/static/js/2.2770e2f1.chunk.js.map",
   "index.html": "/Mars-Miracle-Gallery/index.html",
-  "precache-manifest.b99a061c83ee8e5f963383a2212cfd62.js": "/Mars-Miracle-Gallery/precache-manifest.b99a061c83ee8e5f963383a2212cfd62.js",
+  "precache-manifest.ecd77b35090d277600c9a78a84102886.js": "/Mars-Miracle-Gallery/precache-manifest.ecd77b35090d277600c9a78a84102886.js",
   "service-worker.js": "/Mars-Miracle-Gallery/service-worker.js",
   "static/css/2.3a7eb246.chunk.css.map": "/Mars-Miracle-Gallery/static/css/2.3a7eb246.chunk.css.map",
-  "static/css/main.8f85e1b2.chunk.css.map": "/Mars-Miracle-Gallery/static/css/main.8f85e1b2.chunk.css.map",
+  "static/css/main.9ef2bb0b.chunk.css.map": "/Mars-Miracle-Gallery/static/css/main.9ef2bb0b.chunk.css.map",
   "static/media/semantic.min.css": "/Mars-Miracle-Gallery/static/media/outline-icons.ef60a4f6.woff",
   "static/media/main.css": "/Mars-Miracle-Gallery/static/media/nasalization-rg-webfont.fca27b3d.woff2"
 }

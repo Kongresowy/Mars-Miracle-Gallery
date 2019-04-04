@@ -115,8 +115,8 @@ header {
   }
   .image-div {
     display: flex;
-    justify-content: space-between;
-    align-content: space-between;
+    justify-content: space-around;
+    align-content: space-around;
     height: 100%;
     width: 50%;
     flex-wrap: wrap;
@@ -137,7 +137,7 @@ header {
       font-size: 30px;
       color: white;
       margin: auto;
-      padding: 10px;
+      padding: 12px;
       border-radius: 10px;
     }
   }
@@ -311,11 +311,11 @@ footer {
         }
       }
     }
-    .image-div {
-      p {
-        border-radius: 10px;
-      }
-    }
+    // .image-div {
+    //   p {
+    //     border-radius: 10px;
+    //   }
+    // }
   }
 
   footer {
@@ -377,8 +377,8 @@ footer {
       height: 500px;
       width: 100%;
       padding: 0;
-      justify-content: space-around;
-      align-content: space-around;
+      // justify-content: space-around;
+      // align-content: space-around;
       img {
         height: 30%;
         width: 30%;
