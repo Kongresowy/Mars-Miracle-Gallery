@@ -21,6 +21,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage": "https://kongresowy.github.io/mars-miracle-gallery",
   "browserslist": [
     ">0.2%",
     "not dead",

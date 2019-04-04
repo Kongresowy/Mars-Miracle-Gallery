@@ -16,17 +16,20 @@ class ImagesComponent extends React.Component {
   handleClose = () => this.setState({ activeDimmer: false });
 
   render() {
+    const { moreThanZeroImages, images } = this.props;
+    const { activeDimmer, itemID } = this.state;
+
     return (
-      <div>
-        {this.props.moreThanZeroImages
-          ? this.props.images.map(item => (
-              <img key={item.id} src={item.img_src} alt={item.id} onClick={this.handleOpen} />
+      <div className="image-div">
+        {moreThanZeroImages
+          ? images.map(item => (
+            <img key={item.id} src={item.img_src} alt={item.id} onClick={this.handleOpen} />
           ))
           : <p>Sorry, there's no photos from that day or type of camera. Please check another ones.</p>}
 
-        <Dimmer active={this.state.activeDimmer} onClick={this.handleClose} page>
+        <Dimmer active={activeDimmer} onClick={this.handleClose} page>
           <Segment inverted>
-            <img src={this.state.itemID} alt={this.state.itemID} />
+            <img src={itemID} alt={itemID} />
           </Segment>
         </Dimmer>
       </div>
