@@ -533,6 +533,9 @@ footer .icon {
   .ui.active.transition.visible.page.dimmer .content .ui.inverted.segment.info-segment div {
     font-size: 15px;
   }
+  .ui.active.transition.visible.dimmer {
+    height: 125%;
+  }
 }
 
 @media (max-width: 500px) {

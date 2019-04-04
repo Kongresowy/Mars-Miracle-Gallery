@@ -311,11 +311,6 @@ footer {
         }
       }
     }
-    // .image-div {
-    //   p {
-    //     border-radius: 10px;
-    //   }
-    // }
   }
 
   footer {
@@ -377,8 +372,6 @@ footer {
       height: 500px;
       width: 100%;
       padding: 0;
-      // justify-content: space-around;
-      // align-content: space-around;
       img {
         height: 30%;
         width: 30%;
@@ -441,6 +434,10 @@ footer {
         }
       }
     }
+  }
+
+  .ui.active.transition.visible.dimmer {
+    height: 125%;
   }
 
 }
