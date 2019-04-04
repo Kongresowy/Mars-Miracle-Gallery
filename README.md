@@ -1,2 +1,2 @@
 
-NASA Miracle Gallery Project
+Mars Miracle Gallery Project

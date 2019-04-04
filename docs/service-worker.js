@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mars-miracle-gallery/precache-manifest.e71ff6337e57c4436a389b551b3a86be.js"
+  "/Mars-Miracle-Gallery/precache-manifest.b99a061c83ee8e5f963383a2212cfd62.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/mars-miracle-gallery/index.html", {
+workbox.routing.registerNavigationRoute("/Mars-Miracle-Gallery/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

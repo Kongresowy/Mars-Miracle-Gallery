@@ -47,7 +47,7 @@ class App extends React.Component {
     try {
       this.setState({ activeLoader: true });
       document.body.style.overflow = "hidden";
-      const data = await fetch(`https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=${dateInput}&camera=${cameraInput}&api_key=${API_KEY}`).then(data => data.json());
+      const data = await fetch(`https://cors-anywhere.herokuapp.com/https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=${dateInput}&camera=${cameraInput}&api_key=${API_KEY}`).then(data => data.json());
       this.setState({ images: data.photos, activePage: 1, activeLoader: false });
       data.photos.length < 1 ? this.setState({ moreThanZeroImages: false }) : this.setState({ moreThanZeroImages: true });
       document.body.style.overflow = "auto";
