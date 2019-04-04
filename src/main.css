@@ -505,6 +505,9 @@ footer .icon {
     top: 10px;
     right: 10px;
   }
+  .ui.active.transition.visible.page.dimmer {
+    height: 100%;
+  }
   .ui.active.transition.visible.page.dimmer .content .ui.inverted.segment {
     padding: 0;
     height: 100vh;
@@ -516,6 +519,9 @@ footer .icon {
     max-height: 100%;
     max-width: none;
     width: 100%;
+  }
+  .ui.active.transition.visible.page.dimmer {
+    height: 100%;
   }
   .ui.active.transition.visible.page.dimmer .content .ui.inverted.segment.info-segment {
     height: 100vh;

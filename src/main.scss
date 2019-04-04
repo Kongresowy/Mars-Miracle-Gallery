@@ -399,6 +399,7 @@ footer {
   }
 
   .ui.active.transition.visible.page.dimmer {
+    height: 100%;
     .content {
       .ui.inverted.segment {
         padding: 0;
@@ -416,6 +417,7 @@ footer {
   }
 
   .ui.active.transition.visible.page.dimmer {
+    height: 100%;
     .content {
       .ui.inverted.segment.info-segment {
       height: 100vh;
