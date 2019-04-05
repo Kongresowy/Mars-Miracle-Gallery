@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Mars-Miracle-Gallery/static/media/outline-icons.82f60bd0.svg"
   },
   {
-    "revision": "4a7ab38004fb11674d3e",
-    "url": "/Mars-Miracle-Gallery/static/css/main.7d2ddb0e.chunk.css"
+    "revision": "060814edf43096820ff2",
+    "url": "/Mars-Miracle-Gallery/static/css/main.60858ff8.chunk.css"
   },
   {
     "revision": "a9454c99f79e91fa8c69",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/Mars-Miracle-Gallery/static/media/icons.b87b9ba5.ttf"
   },
   {
-    "revision": "701ae6abd4719e9c2ada3535a497b341",
-    "url": "/Mars-Miracle-Gallery/static/media/outline-icons.701ae6ab.eot"
+    "revision": "962a1bf31c081691065fe333d9fa8105",
+    "url": "/Mars-Miracle-Gallery/static/media/icons.962a1bf3.svg"
   },
   {
     "revision": "cd6c777f1945164224dee082abaea03a",
@@ -52,12 +52,8 @@ self.__precacheManifest = [
     "url": "/Mars-Miracle-Gallery/static/media/outline-icons.ad97afd3.ttf"
   },
   {
-    "revision": "4a7ab38004fb11674d3e",
-    "url": "/Mars-Miracle-Gallery/static/js/main.4a7ab380.chunk.js"
-  },
-  {
-    "revision": "962a1bf31c081691065fe333d9fa8105",
-    "url": "/Mars-Miracle-Gallery/static/media/icons.962a1bf3.svg"
+    "revision": "060814edf43096820ff2",
+    "url": "/Mars-Miracle-Gallery/static/js/main.060814ed.chunk.js"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
@@ -74,6 +70,10 @@ self.__precacheManifest = [
   {
     "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
     "url": "/Mars-Miracle-Gallery/static/media/brand-icons.c5ebe0b3.ttf"
+  },
+  {
+    "revision": "701ae6abd4719e9c2ada3535a497b341",
+    "url": "/Mars-Miracle-Gallery/static/media/outline-icons.701ae6ab.eot"
   },
   {
     "revision": "a1a749e89f578a49306ec2b055c073da",
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/Mars-Miracle-Gallery/static/css/2.3a7eb246.chunk.css"
   },
   {
-    "revision": "07019cc2b727714cf7fd96b6f3fb5fb2",
+    "revision": "dce0ff4b233a2f7fefb32915e2cdee5c",
     "url": "/Mars-Miracle-Gallery/index.html"
   }
 ];

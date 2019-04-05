@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Mars-Miracle-Gallery/precache-manifest.995a8ba9092438f4ed7c236fc6674187.js"
+  "/Mars-Miracle-Gallery/precache-manifest.32a3de0e70fc7e4f4c8c0090b3bec8fe.js"
 );
 
 workbox.clientsClaim();

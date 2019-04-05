@@ -542,6 +542,9 @@ footer .icon {
   .ui.active.transition.visible.dimmer {
     height: 125%;
   }
+  .ui.massive.text.loader {
+    bottom: 10%;
+  }
 }
 
 @media (max-width: 500px) {
